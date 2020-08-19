@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "lib": ["ES6", "DOM"],
+    "module": "CommonJS",
+    "inlineSourceMap": true,
+    "strict": true,
+    "rootDirs": ["src"],
+    "target": "ES5",
+    "outDir": "build",
+    "skipLibCheck": true,
+    "removeComments": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["build", "dist"]
+}

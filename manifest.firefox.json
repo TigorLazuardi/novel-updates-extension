@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Novel Updates Enhancement",
+  "version": "1.0.0",
+  "description": "Enhances features of Novel Updates",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.novelupdates.com/*"],
+      "js": ["dist/index.js"]
+    }
+  ]
+}

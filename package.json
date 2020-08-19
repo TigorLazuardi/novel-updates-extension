@@ -1,0 +1,17 @@
+{
+  "name": "novelupdates-extension",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel build/index.js --no-source-maps",
+    "build": "parcel build build/index.js --no-source-maps --no-minify"
+  },
+  "keywords": [],
+  "author": "TigorLazuardi <tigor.hutasuhut@gmail.com> (https://gitlab.com/TigorLazuardi)",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^3.9.7"
+  }
+}
